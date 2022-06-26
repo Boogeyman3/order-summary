@@ -1,0 +1,81 @@
+:root{
+    --Pale-blue: hsl(225, 100%, 94%);
+    --Bright-blue: hsl(245, 75%, 52%);    
+    --Veryblue: hsl(225, 100%, 98%);
+    --Desaturated-blue: hsl(224, 23%, 55%); 
+    --Dark-blue: hsl(223, 47%, 23%);
+}
+body{
+    background-color: var(--Pale-blue);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+.container{
+    background-color: white;
+   max-width: 1000px;
+   width: 28rem;
+   border-radius: 2rem;
+
+
+}
+.wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;  
+    margin: 1rem;
+}
+.annual-plan{
+    display: flex;
+    background-color: var(--Veryblue);
+padding: 0 15px 0 15px;
+border-radius: 10px;
+    justify-content: space-between;
+}
+p{
+    width: 15rem;
+    color: var(--Desaturated-blue);
+}
+h2{
+    font-family: inherit, ;
+    font-weight: bold;
+    font-size: large;
+}
+.challenge{
+    margin-left: 2rem;
+    color: var(--Dark-blue);
+
+    
+}
+hr{
+    border-top: 1px solid;
+}
+.spain{
+    margin: 2rem 0 0 1rem ;
+    color: var(--Desaturated-blue)
+}
+.mage{
+    height: 4rem;
+    margin: 0.25rem 1rem 0 0;
+}
+.payment{
+    background-color: var(--Bright-blue);
+    color: white;
+    width: 68%;
+    padding: 1rem;
+    margin-top: 2rem;
+    border-radius: 10px;
+}
+.cancel{
+    color: var(--Desaturated-blue);
+    margin-top: 1rem;
+
+}
+.herro{
+    margin-top: -16px;
+    border-radius: 10px;
+
+}
